@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <name>val_grasping</name>
+  <version>0.0.0</version>
+  <description>The val_grasping package</description>
+
+  <maintainer email="scpeters@osrfoundation.org">Steve Peters</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>ros_control</build_depend>
+  <build_depend>ros_controllers</build_depend>
+  <run_depend>ros_control</run_depend>
+  <run_depend>ros_controllers</run_depend>
+</package>

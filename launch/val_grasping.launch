@@ -1,0 +1,10 @@
+<launch>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find val_grasping)/config/val_grasping.yaml" command="load"/>
+
+  <!-- load the controllers -->
+  <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+    output="screen" args="left_hand_position_controller right_hand_position_controller"/>
+
+</launch>
