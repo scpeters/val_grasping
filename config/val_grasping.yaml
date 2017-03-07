@@ -1,7 +1,7 @@
 # Publish all joint states -----------------------------------
-#thumb_joint_state_controller:
-#  type: joint_state_controller/JointStateController
-#  publish_rate: 50  
+hands_joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
 
 # Position Controllers ---------------------------------------
 left_hand_position_controller:
